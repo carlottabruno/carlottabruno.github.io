@@ -1,6 +1,4 @@
-/* ==========================================================================
-   RESET + BASE
-   ========================================================================== */
+/* RESET + BASE  */
 * {
     margin: 0;
     padding: 0;
@@ -18,17 +16,13 @@ body {
     line-height: 1.6;
 }
 
-/* ==========================================================================
-   CONTAINER & GRID
-   ========================================================================== */
+/* CONTAINER & GRID */
 .container {
     width: min(92%, 1240px);
     margin-inline: auto;
 }
 
-/* ==========================================================================
-   HEADER & NAV (comune a tutte le pagine)
-   ========================================================================== */
+/* HEADER & NAV */
 .header {
     position: fixed;
     inset-block-start: 0;
@@ -106,9 +100,7 @@ body {
     color: #ff9800;
 }
 
-/* ==========================================================================
-   HERO (solo index)
-   ========================================================================== */
+/* HERO */
 .hero {
     position: relative;
     height: 100vh;
@@ -249,9 +241,8 @@ body {
     transform: scale(1.4);
 }
 
-/* ==========================================================================
-   SEZIONI COMUNI
-   ========================================================================== */
+/* SEZIONI COMUNI */
+   
 main.page-main {
     padding-top: 140px; /* spazio per header fisso */
 }
@@ -354,9 +345,7 @@ main.page-main {
     text-align: center;
 }
 
-/* ==========================================================================
-   FOOTER (comune)
-   ========================================================================== */
+/* FOOTER  */
 .footer {
     background: #1e3a8a;
     color: white;
@@ -374,9 +363,7 @@ main.page-main {
     font-weight: 600;
 }
 
-/* ==========================================================================
-   RESPONSIVE
-   ========================================================================== */
+/* RESPONSIVE */
 @media (max-width: 1024px) {
     .hero-content h1 { font-size: 7.8rem; }
     .lead           { font-size: 2.2rem; }
@@ -401,9 +388,7 @@ main.page-main {
     .slider-arrow.next { right: 12px; }
 }
 
-/* ==========================================================================
-   CONTATTI
-   ========================================================================== */
+/* CONTATTI */
 
 .contatti-section {
     padding: 10rem 0 8rem;
@@ -505,9 +490,7 @@ main.page-main {
     }
 }
 
-/* ==========================================================================
-   CONTATTI – miglioramenti per centrare meglio i contatti
-   ========================================================================== */
+/* CONTATTI – miglioramenti per centrare meglio i contatti */
 
 .team-grid {
     display: grid;
@@ -672,9 +655,7 @@ main.page-main {
     padding-bottom: 1.2rem;       /* meno spazio sotto l'ultima riga */
 }
 
-/* ==========================================================================
-   CONTATTI – nomi e ruoli in blu, etichette in arancione
-   ========================================================================== */
+/* CONTATTI – nomi e ruoli in blu, etichette in arancione */
 
 .highlight-blue {
     color: #1e40af !important;   /* stesso blu dei titoli di sezione */
@@ -698,9 +679,7 @@ main.page-main {
     text-decoration: underline;
 }
 
-/* ==========================================================================
-   PANORAMICA SCUOLA (contatti)
-   ========================================================================== */
+/* PANORAMICA SCUOLA (contatti) */
 
 .school-overview {
     max-width: 820px;
@@ -777,9 +756,7 @@ main.page-main {
     .school-timeline .year { min-width: 90px; font-size: 0.95rem; }
 }
 
-/* ==========================================================================
-   PANORAMICA SCUOLA (contatti) – testo giustificato
-   ========================================================================== */
+/*PANORAMICA SCUOLA (contatti) – testo giustificato */
 
 .school-overview {
     max-width: 820px;
@@ -868,9 +845,7 @@ main.page-main {
     .school-timeline .year { min-width: 90px; font-size: 0.95rem; }
 }
 
-/* ==========================================================================
-   PAGINA PROGETTO
-   ========================================================================== */
+/* PAGINA PROGETTO */
 
 .progetto-section {
     padding: 10rem 0 8rem;
@@ -960,9 +935,7 @@ main.page-main {
     .progetto-content  { font-size: 1.08rem; }
 }
 
-/* ==========================================================================
-   BENEFICI IN CERCHIO (pagina Progetto)
-   ========================================================================== */
+/* BENEFICI IN CERCHIO (pagina Progetto) */
 
 .benefits-circles {
     display: flex;
@@ -1054,9 +1027,7 @@ main.page-main {
     }
 }
 
-/* ==========================================================================
-   CHI SIAMO – versione dinamica
-   ========================================================================== */
+/* CHI SIAMO – versione dinamica */
 
 /* Animazioni generali */
 @keyframes fadeUp {
@@ -1285,9 +1256,7 @@ main.page-main {
     transform: scale(1.04);  /* leggero zoom al hover */
 }
 
-/* ==========================================================================
-   CHI SIAMO – versione bianca + super dinamica
-   ========================================================================== */
+/* CHI SIAMO – versione bianca + super dinamica */
 
 /* Animazioni più morbide */
 @keyframes pop {
@@ -1488,9 +1457,7 @@ main.page-main {
     .timeline-dot { margin: 0 auto; }
 }
 
-/* ==========================================================================
-   CHI SIAMO – modifiche richieste
-   ========================================================================== */
+/* CHI SIAMO – modifiche richieste */
 
 /* Titolo vicinissimo al navbar */
 .intro-header {
@@ -1791,9 +1758,7 @@ body::after {
     }
 }
 
-/* ==========================================================================
-   TIMELINE – FLICK CARDS STYLE (originale e giocosa)
-   ========================================================================== */
+/* TIMELINE – FLICK CARDS STYLE (originale e giocosa) */
 
 .project-timeline {
     max-width: 1100px;
@@ -1950,9 +1915,7 @@ body::after {
     }
 }
 
-/* ==========================================================================
-   PAGINA DESCRIZIONE SM – VIAGGIO NELLA MIELINA (originale & visivo)
-   ========================================================================== */
+/* PAGINA DESCRIZIONE SM – VIAGGIO NELLA MIELINA (originale & visivo) */
 
 .journey-wrapper {
     max-width: 960px;
@@ -2108,9 +2071,7 @@ body::after {
     }
 }
 
-/* ==========================================================================
-   PAGINA PROGETTO – VERSIONE CINEMATICA 2026 (ultra originale)
-   ========================================================================== */
+/* PAGINA PROGETTO – VERSIONE CINEMATICA 2026 (ultra originale) */
 
 /* Sfondo neurale leggero */
 .progetto-section {
@@ -2313,6 +2274,7 @@ body::after {
     inset: -50%;
     background: radial-gradient(circle at 50% 30%, rgba(255, 255, 255, 0.35) 0%, transparent 60%);
     animation: glowRotate 20s linear infinite;
+    pointer-events: none; 
 }
 
 @keyframes glowRotate {
@@ -2363,9 +2325,7 @@ body::after {
     text-align: center;
 }
 
-/* ==========================================================================
-   IMMAGINE SOTTO IL TITOLO GAMEABILITY (hero visual)
-   ========================================================================== */
+/* IMMAGINE SOTTO IL TITOLO GAMEABILITY (hero visual)*/
 
 .gameability-visual {
     max-width: 900px;
@@ -2428,4 +2388,93 @@ body::after {
     .hero-game-img {
         border-radius: 12px;
     }
+}
+
+/* Griglia 2 colonne */
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Rimuovi le righe intermedie */
+.team-row {
+    display: contents;
+}
+
+
+.team-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 28px rgba(0,0,0,0.13);
+}
+
+.team-image {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    overflow: hidden;
+    flex-shrink: 0;
+    border: 2px solid #ff9800;
+}
+
+.team-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    background: white;
+    transition: all 0.3s ease;
+}
+
+.team-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 50px rgba(0,0,0,0.15);
+}
+
+.team-image {
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+    border-radius: 16px 16px 0 0;
+}
+
+.team-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.team-card:hover .team-image img {
+    transform: scale(1.06);
+}
+
+.team-card h3 {
+    font-size: 1.3rem;
+    margin: 1.2rem 0 0.3rem;
+    color: #1e40af;
+}
+
+.role {
+    font-size: 0.95rem;
+    color: #ff9800;
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1.5rem 1.5rem;
+}
+
+.contact-info p {
+    margin: 0.25rem 0;
+    font-size: 0.9rem;
 }
